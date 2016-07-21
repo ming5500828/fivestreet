@@ -227,25 +227,102 @@
 	padding-right:37px;
 }
 .classifyNav{
-	margin-left:26px;
-	position:relative;
-}
-.classifyNav ul{
-	position:absolute;
-	top:40px;
-	left:0;
-}
-.classifyNav{
 	background: #cf0101;
 	color:white;
 	width:130px;
 	float:left;
+	margin-left:26px;
+	position:relative;
 }
 .classifyNav h3{
 	height:41px;
 	line-height:38px;
 	text-align:center;
 }
+.classifyNav ul{
+	position:absolute;
+	top:40px;
+	left:0;
+	color:#000;
+	background:#dddee0;
+	opacity:0.9;
+	display: none;
+}
+.classifyNav ul li{
+	height:38px;
+	width:130px;
+	position:relative;
+}
+
+.classifyNav ul li a{
+	display: inline-block;
+	height:38px;
+	width:90px;
+	background: url(img/brand_category1.png) no-repeat -3px -5px;
+	padding-left:50px;
+	line-height: 38px;
+	color:#030406;
+	position: relative;
+}
+.classifyNav ul li a span{
+	width:15px;
+	height:38px;
+	display: inline-block;
+	position:absolute;
+	top:0px;
+	left:110px;
+	background: url(img/share02.png) no-repeat -305px -30px;
+}
+.classifyNav ul li a em{
+	height:38px;
+	display: inline-block;
+	position:absolute;
+	top:0;
+	left:128px;
+	width:10px;
+}
+.classifyNav ul li div{
+	position:absolute;
+	width:630px;
+	top:0;
+	left:130px;
+	padding-left:20px;
+	padding-right:150px;
+	display: none;
+}
+.classifyNav ul li div dl{
+	overflow: hidden;
+	padding-top:20px; 
+	border-bottom: 1px solid #666666;
+	padding-bottom: 10px;
+}
+.classifyNav ul li div dt{
+	float:left;
+	width:154px;
+	text-align: center;
+	color:red;
+	font-size: 14px;
+	font-weight: bold;
+}
+.classifyNav ul li div dd{
+	float:left;
+	margin-right:10px;
+}
+.classifyNav ul li div h4{
+	height:50px;
+	font-weight:normal;
+}
+.classifyNav ul li div h4 span{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	background: red;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	margin-top:20px;
+}
+
 .listNav li{
 	float:left;
 	padding:0 30px;
@@ -306,3 +383,17 @@
 .shangNav{
 	background: url(img/share02.png) no-repeat -354px -66px;
 }
+/*=====================banner样式=====================*/
+#banner{
+	width:100%;
+	background: #161616;
+
+}
+.banner{
+	width:1300px;
+	margin:0 auto;
+}
+.bigBanner{
+	width:10000px;
+}
+.bigBanner li{float:left;}
