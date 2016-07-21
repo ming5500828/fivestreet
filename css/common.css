@@ -29,6 +29,9 @@
 	background: url(img/pctankuang.png) no-repeat center top;
 	display:none;
 	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-90px auto auto -300px;
 }
 /*=====================head样式=====================*/
 #head{
@@ -135,18 +138,171 @@
 	height:80px;
 	float:left;
 	margin-left:40px;
+	margin-top: 14px;
 }
 .mid form{
 	margin-left:40px;
 	height:75px;
-	width:387px;
+	width:394px;
+	margin-top: 36px;
 }
 .mid form input{
 	width:303px;
 	height: 34px;
+	border:2px solid #c69c6d;
+	padding-left:5px;
 }
 .mid form button{
 	width:82px;
-	height: 34px;
+	height: 40px;
+	border:none;
+	background:#c69c6d;
+	font-size:14px;
+	color:#fff;
 }
+.mid form p{
+	height:35px;
+	line-height:35px;
+}
+.mid form p a{
+	margin-right:25px;
+	color:#999999;
+}
+.buycarHead{
+	background:url(img/brandstore_share.png) no-repeat -340px -407px;
+	width:140px;
+	height:34px;
+	float:right;
+	border:1px solid #ccc;
+	margin-top: 40px;
+	margin-right:40px;
+	box-shadow:0 0 2px rgba(0,0,0,.2);
+	position:relative;
+}
+.in_buycarHead img{
+	margin:5px 0  0 10px;
+	float:left;
+}
+.in_buycarHead span{
+	color:#666666;
+	line-height: 30px;
+	margin-left:10px;
+	display: inline-block;
 
+}
+.in_buycarHead span em{
+	color:red;
+}
+.out_buycarHead{
+	position:absolute;
+	width:280px;
+	height:80px;
+	border:1px solid #ccc;
+	box-shadow:0 0 2px rgba(0,0,0,.2);
+	top:34px;
+	left:-141px;
+	display: none;
+}
+.out_buycarHead span{
+	position:absolute;
+	width:140px;
+	height:5px;
+	top:-4px;
+	background:#fff;
+	right:0px;
+}
+.out_buycarHead p{
+	margin-top:10px;
+	text-align:center;
+}
+/*=====================nav样式=====================*/
+#nav{
+	width:100%;
+	background: #161616;
+
+}
+.nav{
+	width:1263px;
+	margin:0 auto;
+	padding-right:37px;
+}
+.classifyNav{
+	margin-left:26px;
+	position:relative;
+}
+.classifyNav ul{
+	position:absolute;
+	top:40px;
+	left:0;
+}
+.classifyNav{
+	background: #cf0101;
+	color:white;
+	width:130px;
+	float:left;
+}
+.classifyNav h3{
+	height:41px;
+	line-height:38px;
+	text-align:center;
+}
+.listNav li{
+	float:left;
+	padding:0 30px;
+}
+.listNav li a{
+	color:#c8a985;
+	line-height:38px;
+	
+}
+.listNav li a:hover{
+	color:white;
+}
+.shopNav{
+	
+	height:38px;
+	width:54px;
+	display: inline-block;
+	
+	
+}
+.shopNav span{
+	height:38px;
+	width:24px;
+	display: inline-block;
+	background: url(img/share02.png) no-repeat -54px -170px;
+	float:left;
+}
+.shopNav em{
+	line-height: 38px;
+	display: inline-block;
+	float:left;
+	margin-left:3px;
+}
+.shopNav span:hover{
+	background: url(img/share02.png) no-repeat -362px -253px;
+}
+.wrapNav{
+	margin-right:50px;
+}
+.wrapNav li{
+	width:30px;
+	overflow:hidden;
+	margin-right:12px;
+	float:left;
+	height:38px;
+}
+.wrapNav li span{
+	display: inline-block;
+	width:30px;
+	height:38px;
+}
+.zhengNav{
+	background: url(img/share02.png) no-repeat -237px -66px;
+}
+.vipNav{
+	background: url(img/share02.png) no-repeat -296px -66px;
+}
+.shangNav{
+	background: url(img/share02.png) no-repeat -354px -66px;
+}
