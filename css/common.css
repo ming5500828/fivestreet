@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=====================公共样式=====================*/
+#topFive,#head,#mid{
+	width:100%;
+}
+
+	
+
+
+/*=====================topFive样式=====================*/
+#top{
+	background:#000;
+}
+.top{
+	width:1300px;
+	margin:0 auto;
+	height:32px;
+
+}
+.top img{
+	width:100%;
+	height:100%;
+}
+.frameTop{
+	width:660px;
+	height:416px;
+	background: url(img/pctankuang.png) no-repeat center top;
+	display:none;
+	position:fixed;
+}
+/*=====================head样式=====================*/
+#head{
+	background:#f2f2f2;
+}
+.head{
+	height:30px;
+	width:1263px;
+	margin:0 auto;
+	padding-right:37px;
+	
+}
+.leftHead{
+	float:left;
+	margin-left:20px;
+}
+.leftHead span{
+	display:inline-block;
+	background: url(img/home.png) no-repeat left center;
+	padding-left:16px;
+	margin-right:16px;
+
+}
+.leftHead a{
+	line-height:30px;
+	color:#666666;
+	padding:0 16px 0 10px;
+	
+}
+.leftHead span a{
+	border-right:1px solid #dfdfdf;
+}
+.leftHead span a:hover{
+	color:#b15912;
+
+
+}
+.leftHead em{
+	display:inline-block;
+	background: url(img/home.png) no-repeat left center;
+	padding-left:16px;
+}
+
+.rightHead{
+	float:right;
+}
+.rightHead>li{
+	float:left;
+	
+}
+.rightHead>li>a:hover{
+	color:#a41025;
+}
+.rightHead>li>a{
+	border-right:1px solid #dfdfdf;
+	line-height:30px;
+	padding:0 20px;
+	color:#666666;
+}
+.arrowHead{
+	border:5px solid #000;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-bottom:none;
+	display:inline-block;
+	line-height:30px;
+	margin-left:10px;
+	margin-bottom:3px;
+}
+.registerHead{
+	background: url(img/youli.gif) no-repeat left top;
+	padding-left:10px;
+	margin-left:15px;
+}
+.listHead{
+	display: none;
+}
+.helpHead a{
+	border-left:1px solid #dfdfdf;
+}
+.phoneHead img{
+	display:none;
+}
+/*=====================mid样式=====================*/
+
+.mid{
+	width:1263px;
+	margin:0 auto;
+	padding-right:37px;
+	
+}
+.mid h1{
+	height:110px;
+	width:244px;
+	float:left;
+	margin-left:20px;
+}
+.mid h1 img{
+	width:100%;
+	height:100%;
+}
+.mid h2{
+	width:142px;
+	height:80px;
+	float:left;
+	margin-left:40px;
+}
+.mid form{
+	margin-left:40px;
+	height:75px;
+	width:387px;
+}
+.mid form input{
+	width:303px;
+	height: 34px;
+}
+.mid form button{
+	width:82px;
+	height: 34px;
+}
+
