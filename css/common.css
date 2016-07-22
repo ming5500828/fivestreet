@@ -392,8 +392,64 @@
 .banner{
 	width:1300px;
 	margin:0 auto;
+	position: relative;
 }
 .bigBanner{
 	width:10000px;
 }
-.bigBanner li{float:left;}
+
+.bigBanner li{
+	float:left;
+}
+.bigBanner li a img{
+	width:100%;
+
+}
+.banner span{
+	position: absolute;
+	top:202px;	
+	cursor:pointer;
+}
+.prevBanner{
+	left:132px;
+}
+.nextBanner{
+	right:132px;
+}
+.smallBanner{
+	position: absolute;
+	width:200px;
+	left:50%;
+	top:491px;
+	background: #918f8f;
+	height:20px;
+	margin-left:-100px;
+}
+.smallBanner li{
+	width: 12px;
+	height:12px;
+	border-radius: 50%;
+	background:#b7b6b4;
+	float:left;
+	border:1px solid #fff;
+	
+	margin:2px 9px;
+}
+/*=====================brand样式=====================*/
+#brand{
+	width:100%;
+	background: #fff;
+
+}
+.brand{
+	width:1240px;
+	margin:0 auto;
+	position: relative;
+	padding:0 30px;
+}
+.logoBrand{
+	height:120px;
+}
+.logoBrand img{
+	margin-top:40px;
+}
