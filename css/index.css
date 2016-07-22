@@ -1,0 +1,495 @@
+/*=====================banner样式=====================*/
+#banner{
+	width:100%;
+	background: #161616;
+
+}
+.banner{
+	width:1300px;
+	margin:0 auto;
+	position: relative;
+}
+.bigBanner{
+	width:10000px;
+}
+
+.bigBanner li{
+	float:left;
+}
+.bigBanner li a img{
+	width:100%;
+
+}
+.banner span{
+	position: absolute;
+	top:202px;	
+	cursor:pointer;
+}
+.prevBanner{
+	left:132px;
+}
+.nextBanner{
+	right:132px;
+}
+.smallBanner{
+	position: absolute;
+	width:200px;
+	left:50%;
+	top:491px;
+	background: #918f8f;
+	height:20px;
+	margin-left:-100px;
+}
+.smallBanner li{
+	width: 12px;
+	height:12px;
+	border-radius: 50%;
+	background:#b7b6b4;
+	float:left;
+	border:1px solid #fff;
+	
+	margin:2px 9px;
+}
+/*=====================brand样式=====================*/
+#brand{
+	width:100%;
+	background: #fff;
+
+}
+.brand{
+	width:1240px;
+	margin:0 auto;
+	position: relative;
+	padding:0 30px;
+}
+.logoBrand{
+	height:120px;
+}
+.logoBrand img{
+	margin-top:40px;
+}
+.imgBrand li{
+	position: relative;
+	width:234px;
+	height:329px;
+	float:left;
+	margin-right:10px;
+}
+.showBrand{
+	position: absolute;
+	width:106px;
+	height:154px;
+	bottom: 0;
+	left:30px;
+	background: #fff;
+	padding:0 34px;
+}
+.showBrand img{
+	width:60px;
+	height:30px;
+	display: block;
+	margin:0 auto;
+	margin-top:10px;
+}
+.showBrand h2{
+	width:30px;
+	height:3px;
+	background:#000;
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:10px;
+}
+.showBrand p{
+	font-size: 14px;
+	text-align:center;
+	color:#666666;
+	margin-top:10px;
+}
+/*=====================hot样式=====================*/
+#hot{
+	width:100%;
+	background: #fff;
+
+}
+.hot{
+	width:1240px;
+	margin:0 auto;
+	padding:0 30px;
+}
+.logoHot{
+	position:relative;
+}
+.logoHot span{
+	background: url(img/share02.png) no-repeat -160px -384px;
+	display: inline-block;
+    width: 8px;
+    height: 15px;
+    position:absolute;
+    top:25px;
+    right:100px;
+    cursor:pointer;
+}
+.logoHot em{
+	background: url(img/share02.png) no-repeat -180px -384px;
+	display: inline-block;
+    width: 8px;
+    height: 15px;
+    position:absolute;
+    top:25px;
+    right:60px;
+    cursor:pointer;
+}
+.out_listHot{
+	width:1240px;
+}
+.in_listHot{
+	width:5000px;
+}
+.listHot{
+	width:1240px;
+}
+.listHot li{
+	width:109px;
+	height:57px;
+	border:1px solid #dfdfdf;
+	padding:14px 29px;
+	position:relative;
+	float: left;
+	margin-right:6px;
+	margin-bottom:6px;
+
+}
+.listHot li img{
+	width:100%;
+	height:100%;
+}
+.listHot li div{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-27px;
+	margin-top:-13px;
+
+}
+.listHot li div h2{
+	color:#be6f34;
+}
+.listHot li div span{
+	height:3px;
+	width:30px;
+	background:#000;
+	display: block;
+	margin:0 auto;
+}
+.topline{
+	position: absolute;
+	left:0;
+	top:-1px;
+	background:#000;
+	width:166px;
+	height:1px;
+}
+.rightline{
+	position: absolute;
+	right:0;
+	top:-1px;
+	background:#000;
+	width:1px;
+	height:87px;
+}
+.bottomline{
+	position: absolute;
+	left:0;
+	bottom:-1px;
+	background:#000;
+	width:166px;
+	height:1px;
+}
+.leftline{
+	position: absolute;
+	left:0;
+	top:-1px;
+	background:#000;
+	width:1px;
+	height:87px;
+}
+
+/*=====================sale样式=====================*/
+#sale{
+	width:100%;
+	background: #fff;
+
+}
+.sale{
+	width:1240px;
+	margin:0 auto;
+	padding:0 30px;
+}
+.listSale{
+	margin-bottom:15px;
+}
+.listSale span{
+	width:398px;
+	height:30px;
+	display: inline-block;
+	background:#999999;
+	margin-right:10px;
+	text-align:center;
+	line-height:30px;
+	color:white;
+}
+.imgSale h2{
+	width:367px;
+	height:516px;
+	float:left;
+}
+.imgSale h2 img{
+	width:100%;
+	height:100%;
+}
+.imgSale ul{
+	width:850px;
+	height:516px;
+	float:right;
+}
+.imgSale ul li{
+	float:left;
+	border:1px solid #cccccc;
+	margin-right:8px;
+	margin-bottom:8px;
+}
+.top1Sale{
+	width:223px;
+	height:250px;
+}
+.top2Sale{
+	width:367px;
+	height:250px;
+}
+.top3Sale{
+	width:223px;
+	height:250px;
+}
+.bottom1Sale{
+	width:271px;
+	height:255px;
+}
+.bottom2Sale{
+	width:271px;
+	height:255px;
+}
+.bottom3Sale{
+	width:271px;
+	height:255px;
+}
+.imgSale ul img{
+	width:100%;
+	height:100%;
+}
+/*=====================mail样式=====================*/
+#mail{
+	width:100%;
+	background: #fff;
+
+}
+.mail{
+	width:1240px;
+	margin:0 auto;
+	padding:0 30px;
+}
+.listMail li{
+	float:left;
+	width:233px;
+	height:50px;
+	color:#fff;
+	line-height:50px;
+	text-align: center;
+	background:#999999;
+	margin-right:11px;
+}
+/*=====================bag样式=====================*/
+#bag{
+	width:100%;
+	background: #fff;
+
+}
+.bag{
+	width:1240px;
+	margin:0 auto;
+	padding:0 30px;
+}
+.leftBag{
+	width:220px;
+	
+	border:1px solid #cccccc;
+	padding:9px 9px 0;
+}
+.leftBag p span{
+	width:100px;
+	height:36px;
+	line-height:36px;
+	color:#666666;
+	display: inline-block;
+	cursor:pointer;
+}
+.leftBag p span:hover{
+	color:#d3a366;
+}
+.carouselBag{
+	border-top:1px dashed #d4d4d4;
+}
+.carouselBag h3{
+	width:220px;
+	margin-top:10px;
+}
+.carouselBag h3 p a{
+	display:inline-block;
+	width:90px;
+	height:50px;
+	float:left;
+	padding:10px 10px;
+	margin-top:10px;
+}
+.carouselBag h3 p a img{
+	width:100%;
+	height:100%;
+}
+.indexBag{
+	height:33px;
+	position: relative;
+	padding-left: 80px;
+	margin-top:10px;
+}
+.indexBag span{
+	display: inline-block;
+	width:8px;
+	height:14px;
+	position: absolute;
+
+	
+}
+.prevBag{
+	left:60px;
+	background: url(img/share02.png) no-repeat -239px -384px;
+}
+.nextBag{
+	right:60px;
+	background: url(img/share02.png) no-repeat -267px -384px;
+}
+.indexBag em{
+	display: inline-block;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background:#666666;
+	margin-right:10px;
+}
+.centerBag{
+	height:403px;
+	position: relative;
+	width:390px;
+	border:1px solid #cccccc;
+	margin-left:8px;
+}
+.centerBag img{
+	height:100%;
+	width:100%;
+}
+.centerBag div{
+	position: absolute;
+	left:50%;
+	bottom:30px;
+	background: #fff;
+	opacity:0.7;
+	width:250px;
+	height:90px;
+	margin-left:-125px;
+	text-align:center;
+	color:#000000;
+}.centerBag div p{
+	line-height:35px;
+	color:#000000;
+}
+.centerBag div span{
+	display: block;
+	height:2px;
+	background:#000;
+	width:30px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.centerBag div em{
+	line-height:18px;
+	color:#000000;
+}
+.rightBag{
+	width:570px;
+	margin-right:20px;
+}
+.rightBag li{
+	float: left;
+	height:195px;
+	width:276px;
+	border:1px solid #cccccc;
+	margin-right:6px;
+	margin-bottom:10px;
+}
+.rightBag li img{
+	height:100%;
+	width:100%;
+}
+/*=====================promotion样式=====================*/
+#promotion{
+	width:100%;
+	background: #fff;
+
+}
+.promotion{
+	width:1240px;
+	margin:0 auto;
+	padding:0 30px;
+}
+.topPromotion h2{
+	float:left;
+	width:598px;
+	height:294px;
+	margin-right:10px;
+	margin-bottom:10px;
+
+}
+.topPromotion h2 img{
+	width:100%;
+	height:100%;
+}
+.topPromotion p{
+	float:left;
+	height:294px;
+	width:294px;
+	margin-right:10px;
+	margin-bottom:10px;
+
+}
+.topPromotion p img{
+	width:100%;
+	height:100%;
+}
+.smallPromotion{
+	width:610px;
+}
+.smallPromotion li{
+	float:left;
+	width:192px;
+	height:63px;
+	border:1px solid #cccccc;
+	margin-right:9px;
+	margin-bottom:9px;
+}
+.bigPromotion {
+	width:598px;
+	height:138px;
+	margin-right:32px;
+}
+.bigPromotion img{
+	height:100%;
+	width:100%;
+}
