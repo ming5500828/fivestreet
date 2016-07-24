@@ -1,16 +1,20 @@
 /*=====================banner样式=====================*/
 #banner{
 	width:100%;
-	background: #161616;
+	background: #fff;
 
 }
 .banner{
-	width:1300px;
 	margin:0 auto;
 	position: relative;
+	height:520px;
+	width:1263px;
+	overflow: hidden;
 }
 .bigBanner{
-	width:10000px;
+	width:13000px;
+	position:absolute;
+
 }
 
 .bigBanner li{
@@ -18,7 +22,8 @@
 }
 .bigBanner li a img{
 	width:100%;
-
+	height:100%;
+	display: block;
 }
 .banner span{
 	position: absolute;
@@ -78,11 +83,12 @@
 .showBrand{
 	position: absolute;
 	width:106px;
-	height:154px;
+	height:55px;
 	bottom: 0;
 	left:30px;
 	background: #fff;
 	padding:0 34px;
+	overflow: hidden;
 }
 .showBrand img{
 	width:60px;
@@ -169,6 +175,7 @@
 	left:50%;
 	margin-left:-27px;
 	margin-top:-13px;
+	display: none;
 
 }
 .listHot li div h2{
@@ -186,7 +193,7 @@
 	left:0;
 	top:-1px;
 	background:#000;
-	width:166px;
+	width:0px;
 	height:1px;
 }
 .rightline{
@@ -195,14 +202,14 @@
 	top:-1px;
 	background:#000;
 	width:1px;
-	height:87px;
+	height:0px;
 }
 .bottomline{
 	position: absolute;
 	left:0;
 	bottom:-1px;
 	background:#000;
-	width:166px;
+	width:0px;
 	height:1px;
 }
 .leftline{
@@ -211,7 +218,7 @@
 	top:-1px;
 	background:#000;
 	width:1px;
-	height:87px;
+	height:0px;
 }
 
 /*=====================sale样式=====================*/
@@ -238,6 +245,24 @@
 	line-height:30px;
 	color:white;
 }
+.outSale{
+	width:1240px;
+	height:516px;
+	position: relative;
+	overflow: hidden;
+}
+.inSale{
+	height:516px;
+	width:6000px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.imgSale{
+	width:1240px;
+	height:516px;
+	float:left;
+}
 .imgSale h2{
 	width:367px;
 	height:516px;
@@ -257,35 +282,118 @@
 	border:1px solid #cccccc;
 	margin-right:8px;
 	margin-bottom:8px;
+	overflow: hidden;
 }
 .top1Sale{
 	width:223px;
 	height:250px;
+	position: relative;
+}
+.top1Sale img{
+	width:150px;
+	height:150px;
+	left:50%;
+	position: absolute;
+	margin-left:-75px;
+	top:100px;
+}
+.top1Sale h5{
+	height:100px;
+	width:150px;
+	text-align: center;
+	left:50%;
+	position: absolute;
+	margin-left:-75px;
+	font-weight: normal;
+}
+.top1Sale h5 p{
+	line-height:30px;
 }
 .top2Sale{
 	width:367px;
 	height:250px;
+	position: relative;
+}
+.top2Sale h5{
+	width:150px;
+	height:100px;
+	font-weight: normal;
+	text-align: center;
+	position: absolute;
+	top:10px;
+	left:20px;
+}
+.top2Sale h5 p{
+	line-height:30px;
+}
+.top2Sale img{
+	height:180px;
+	width:180px;
+	position: absolute;
+	top:50px;
+	left:160px;
 }
 .top3Sale{
 	width:223px;
 	height:250px;
+	position: relative;
 }
-.bottom1Sale{
+.top3Sale img{
+	width:150px;
+	height:150px;
+	left:50%;
+	position: absolute;
+	margin-left:-75px;
+	top:100px;
+}
+
+.top3Sale h5{
+	height:100px;
+	width:150px;
+	text-align: center;
+	left:50%;
+	position: absolute;
+	margin-left:-75px;
+	font-weight: normal;
+}
+.top3Sale h5 p{
+	line-height:30px;
+}
+.bottomSale{
 	width:271px;
 	height:255px;
 }
-.bottom2Sale{
+.bottomSale{
 	width:271px;
 	height:255px;
 }
-.bottom3Sale{
+.bottomSale{
 	width:271px;
 	height:255px;
+	position: relative;
 }
-.imgSale ul img{
-	width:100%;
-	height:100%;
+.bottomSale img{
+	width:150px;
+	height:150px;
+	left:50%;
+	position: absolute;
+	margin-left:-75px;
+	top:100px;
 }
+
+.bottomSale h5{
+	height:100px;
+	width:150px;
+	text-align: center;
+	left:50%;
+	position: absolute;
+	margin-left:-75px;
+	font-weight: normal;
+}
+.bottomSale h5 p{
+	line-height:30px;
+}
+
 /*=====================mail样式=====================*/
 #mail{
 	width:100%;
@@ -306,7 +414,28 @@
 	text-align: center;
 	background:#999999;
 	margin-right:11px;
+	position:relative;
 }
+.listMail li p{
+	position:absolute;
+	width:223px;
+	height:0px;
+	background:#000;
+	top:50px;
+	padding:0 5px 0;
+	overflow: hidden;
+}
+.listMail li p span{
+	color:#fff;
+	display: block;
+	margin-top:5px;
+	height:40px;
+	border:1px solid #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height:40px;
+}
+
 /*=====================bag样式=====================*/
 #bag{
 	width:100%;
@@ -337,10 +466,22 @@
 }
 .carouselBag{
 	border-top:1px dashed #d4d4d4;
+	width:220px;
+	height:214px;
+	position: relative;
+	overflow: hidden;
+
 }
 .carouselBag h3{
-	width:220px;
+	width:2200px;
+	height:160px;
 	margin-top:10px;
+	position:absolute;
+}
+.carouselBag h3 p{
+	width:220px;
+	height:160px;
+	float:left;
 }
 .carouselBag h3 p a{
 	display:inline-block;
@@ -356,33 +497,37 @@
 }
 .indexBag{
 	height:33px;
+	width:110px;
 	position: relative;
-	padding-left: 80px;
+	padding:5px 20px;
 	margin-top:10px;
+	position:absolute;
+	top:170px;
+	left:50px;
 }
 .indexBag span{
 	display: inline-block;
 	width:8px;
 	height:14px;
-	position: absolute;
-
-	
+	position: absolute;	
+	top:5px;
 }
-.prevBag{
-	left:60px;
+ .prevBag{
+	left:10px;
 	background: url(img/share02.png) no-repeat -239px -384px;
 }
 .nextBag{
-	right:60px;
+	right:45px;
 	background: url(img/share02.png) no-repeat -267px -384px;
-}
+} 
 .indexBag em{
 	display: inline-block;
 	width:10px;
 	height:10px;
 	border-radius: 50%;
 	background:#666666;
-	margin-right:10px;
+	margin-left:10px;
+	
 }
 .centerBag{
 	height:403px;
@@ -483,13 +628,48 @@
 	border:1px solid #cccccc;
 	margin-right:9px;
 	margin-bottom:9px;
+	position: relative;
 }
 .bigPromotion {
 	width:598px;
 	height:138px;
 	margin-right:32px;
 }
+
 .bigPromotion img{
 	height:100%;
 	width:100%;
+}
+	
+.toplinePro{
+	position: absolute;
+	left:0;
+	top:-1px;
+	background:#000;
+	width:0px;
+	height:1px;
+}
+.rightlinePro{
+	position: absolute;
+	top:0;
+	right:-1px;
+	background:#000;
+	width:1px;
+	height:0px;
+}
+.bottomlinePro{
+	position: absolute;
+	left:0;
+	bottom:-1px;
+	background:#000;
+	width:0px;
+	height:1px;
+}
+.leftlinePro{
+	position: absolute;
+	left:-1px;
+	top:-1px;
+	background:#000;
+	width:1px;
+	height:0px;
 }

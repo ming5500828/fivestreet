@@ -31,7 +31,14 @@
 	position:fixed;
 	top:50%;
 	left:50%;
-	margin:-90px auto auto -300px;
+	margin:-200px auto auto -300px;
+	z-index:20;
+}
+.frameTop span{
+	position:absolute;
+	right:40px;
+	cursor:pointer;
+
 }
 /*=====================head样式=====================*/
 #head{
@@ -101,19 +108,61 @@
 	margin-left:10px;
 	margin-bottom:3px;
 }
+.arrowHeadActive{
+	border:5px solid #e53434;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top:none;
+	display:inline-block;
+	line-height:30px;
+	margin-left:10px;
+	margin-bottom:3px;
+}
 .registerHead{
 	background: url(img/youli.gif) no-repeat left top;
 	padding-left:10px;
 	margin-left:15px;
 }
+.downHead{
+	position:relative;
+
+	
+}
+.downHeadActive{
+	background: #fff;
+	
+}
 .listHead{
+	position:absolute;
+	top:30px;
+	border:1px solid #cccccc;
 	display: none;
+	box-shadow: 0 0 2px rgba(0,0,0,.2);
+	border-top:none!important;
+}
+.listHead li{
+	width:133px;
+	height:22px;
+}
+.listHead li a{
+	line-height:22px;
+	display:block;
+	text-align:center;
+}
+.listHead li a:hover{
+	color:red;
 }
 .helpHead a{
 	border-left:1px solid #dfdfdf;
 }
+.phoneHead{
+	position: relative;
+}
 .phoneHead img{
 	display:none;
+	position:absolute;
+	z-index:30;
+
 }
 /*=====================mid样式=====================*/
 
@@ -152,6 +201,9 @@
 	border:2px solid #c69c6d;
 	padding-left:5px;
 }
+.mid form input:focus{
+	outline:none;	
+}
 .mid form button{
 	width:82px;
 	height: 40px;
@@ -160,6 +212,10 @@
 	font-size:14px;
 	color:#fff;
 }
+.mid form button:focus{
+	outline:none;
+}
+
 .mid form p{
 	height:35px;
 	line-height:35px;
@@ -202,6 +258,8 @@
 	top:34px;
 	left:-141px;
 	display: none;
+	z-index:30;
+	background: #fff;
 }
 .out_buycarHead span{
 	position:absolute;
@@ -245,8 +303,9 @@
 	left:0;
 	color:#000;
 	background:#dddee0;
-	opacity:0.9;
+	
 	display: none;
+	z-index: 100
 }
 .classifyNav ul li{
 	height:38px;
@@ -263,7 +322,13 @@
 	line-height: 38px;
 	color:#030406;
 	position: relative;
+
 }
+.classifyNav ul li a:hover{
+	background: url(img/brand_category2.png) no-repeat -3px -5px;
+}
+
+
 .classifyNav ul li a span{
 	width:15px;
 	height:38px;
@@ -272,6 +337,7 @@
 	top:0px;
 	left:110px;
 	background: url(img/share02.png) no-repeat -305px -30px;
+	display: none;
 }
 .classifyNav ul li a em{
 	height:38px;
@@ -289,6 +355,9 @@
 	padding-left:20px;
 	padding-right:150px;
 	display: none;
+	z-index: 100;
+	background:#fff;
+
 }
 .classifyNav ul li div dl{
 	overflow: hidden;
@@ -363,8 +432,8 @@
 	margin-right:50px;
 }
 .wrapNav li{
+	
 	width:30px;
-	overflow:hidden;
 	margin-right:12px;
 	float:left;
 	height:38px;
@@ -373,6 +442,15 @@
 	display: inline-block;
 	width:30px;
 	height:38px;
+	float:left;
+	
+}
+.wrapNav em{
+	color:#fff;
+	line-height:38px;
+	float:left;
+
+
 }
 .zhengNav{
 	background: url(img/share02.png) no-repeat -237px -66px;
@@ -416,6 +494,10 @@
 	margin-top:15px;
 	margin-left:5px;
 }
+.explainFooter{
+	width:930px;
+	float:left;
+}
 .explainFooter li{
 	float:left;
 	width:186px;
@@ -434,4 +516,57 @@
 }
 .rweixinfooter h3{
 	line-height:70px;
+}
+.listFooter{
+	
+	width:450px;
+	margin:115px auto 0;
+}
+.listFooter li{
+	float:left;
+}
+.listFooter li a{
+	color:#fff;
+	padding:0 10px;
+	border-right:1px solid #fff;
+	line-height:50px;
+}
+.listFooter li a:hover{
+	text-decoration: underline;
+}
+.notlistFooter{
+	border:none;
+}
+.aboutFooter{
+	width:850px;
+	margin:0 auto;
+}
+
+
+.aboutFooter li{
+	float:left;
+}
+.aboutFooter li a{
+	color:#fff;
+	padding:0 10px;
+	border-right:1px solid #fff;
+}
+.aboutFooter li a:hover{
+	text-decoration: underline;
+}
+
+.pFooter{
+	color:#fff;
+	margin-left:200px;
+	display:inline-block;
+	line-height:30px;
+}
+.imgFooter {
+	width:480px;
+	margin:15px auto 0;
+
+}
+.imgFooter li{
+	float:left;
+	margin-right:10px;
 }
